@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E823EB61F33450937CE27C0AE63A756C49FC71F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5AE9C14B5D44994BFA004CDD443908C59D83E3FA" : 9223372036854775807,
+    "5DF9E07F35FCCD2C6F6F569C05F08AE23C11ED8E" : 9223372036854775807,
+    "9CFD7CBB14B66D81997B3295953B00952735A9D9" : 9223372036854775807,
+    "5E823EB61F33450937CE27C0AE63A756C49FC71F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC4DB145-0D59-4B28-9951-42108D3B2195",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5AE9C14B5D44994BFA004CDD443908C59D83E3FA" : "MMTP\/",
+    "5DF9E07F35FCCD2C6F6F569C05F08AE23C11ED8E" : "ZLTCPTransfer\/",
+    "9CFD7CBB14B66D81997B3295953B00952735A9D9" : "broadcasthome\/",
+    "5E823EB61F33450937CE27C0AE63A756C49FC71F" : "forcewithyou\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "force",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "force\/force\/force.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZQYA\/MMTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AE9C14B5D44994BFA004CDD443908C59D83E3FA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZQYA\/ZLTCPTransfer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DF9E07F35FCCD2C6F6F569C05F08AE23C11ED8E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZQYA\/forcewithyou.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E823EB61F33450937CE27C0AE63A756C49FC71F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZQYA\/broadcasthome.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CFD7CBB14B66D81997B3295953B00952735A9D9"
+    }
+  ]
+}
