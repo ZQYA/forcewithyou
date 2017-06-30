@@ -37,6 +37,8 @@ extern NSString *server_ip;
                 size_t w_s =  mp_file_write(sk_fd, [filePath UTF8String], 1);
                 if (w_s>0) {
                     NSLog(@"backup success");
+                }else {
+                    
                 }
             }
         }];

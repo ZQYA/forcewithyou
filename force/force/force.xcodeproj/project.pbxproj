@@ -21,6 +21,7 @@
 		A8B1B5441F050B780095C602 /* dktool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5401F050B780095C602 /* dktool.cpp */; };
 		A8B1B5491F050B8A0095C602 /* bd_tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5451F050B8A0095C602 /* bd_tool.cpp */; };
 		A8B1B54A1F050B8A0095C602 /* broadcast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5471F050B8A0095C602 /* broadcast.cpp */; };
+		A8F7EEA61F06675300467FC2 /* icmp_protocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		A8B1B5461F050B8A0095C602 /* bd_tool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = bd_tool.hpp; path = ../../../../../broadcasthome/broadcast/bd_tool.hpp; sourceTree = "<group>"; };
 		A8B1B5471F050B8A0095C602 /* broadcast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = broadcast.cpp; path = ../../../../../broadcasthome/broadcast/broadcast.cpp; sourceTree = "<group>"; };
 		A8B1B5481F050B8A0095C602 /* broadcast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = broadcast.hpp; path = ../../../../../broadcasthome/broadcast/broadcast.hpp; sourceTree = "<group>"; };
+		A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = icmp_protocol.cpp; path = ../../../../../ZLTCPTransfer/src/icmp_protocol.cpp; sourceTree = "<group>"; };
+		A8F7EEA51F06675300467FC2 /* icmp_protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = icmp_protocol.hpp; path = ../../../../../ZLTCPTransfer/src/icmp_protocol.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 		A822EE7E1F04AC8800BD6A06 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */,
+				A8F7EEA51F06675300467FC2 /* icmp_protocol.hpp */,
 				A8B1B5451F050B8A0095C602 /* bd_tool.cpp */,
 				A8B1B5461F050B8A0095C602 /* bd_tool.hpp */,
 				A8B1B5471F050B8A0095C602 /* broadcast.cpp */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F7EEA61F06675300467FC2 /* icmp_protocol.cpp in Sources */,
 				A8B1B5441F050B780095C602 /* dktool.cpp in Sources */,
 				A822EE611F04ABF400BD6A06 /* ViewController.mm in Sources */,
 				A822EE5E1F04ABF400BD6A06 /* AppDelegate.m in Sources */,
