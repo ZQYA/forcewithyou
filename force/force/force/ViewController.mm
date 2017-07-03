@@ -48,7 +48,7 @@ extern NSString *server_ip;
 
 
 -(SOCKET)prepareSend {
-    int sk_fd = prepare_send([server_ip UTF8String],8001);
+    int sk_fd = prepare_send([server_ip UTF8String],8000);
     return sk_fd;
 }
 

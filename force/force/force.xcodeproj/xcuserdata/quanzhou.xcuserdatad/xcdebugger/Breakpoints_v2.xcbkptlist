@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../ZLTCPTransfer/src/brightside.cpp"
-            timestampString = "520513438.595956"
+            filePath = "../../../ZLTCPTransfer/src/icmp_protocol.cpp"
+            timestampString = "520741225.802269"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "startping(const char *dstIp)"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "recvEchoReQuest(SOCKET sock,ECHORESPONSE * sponse, sockaddr_in *dstIP)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,30 +41,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "force/main.mm"
-            timestampString = "520513509.816292"
+            filePath = "../../../ZLTCPTransfer/src/icmp_protocol.cpp"
+            timestampString = "520741403.583439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "main(int argc, char * argv[])"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "recvEchoReQuest(SOCKET sock,ECHORESPONSE * sponse, sockaddr_in *dstIP)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "force/ViewController.mm"
-            timestampString = "520513770.236967"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
