@@ -32,6 +32,7 @@ extern NSString *server_ip;
     if (result.count>0) {
         sk_fd = [self prepareSend];
     }
+    const char *uuid = [[[UIDevice currentDevice] identifierForVendor].UUIDString UTF8String];
     for (int i = 0 ; i < result.count; ++i) {
         PHAsset *asset = [result objectAtIndex:i];
         [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:PHImageManagerMaximumSize contentMode:PHImageContentModeAspectFit options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
@@ -39,11 +40,11 @@ extern NSString *server_ip;
             NSString *filePath = [fileurl.absoluteString substringFromIndex:7];
             NSLog(@"path:%@",filePath);
             if (sk_fd>0) {
-                size_t w_s =  mp_file_write(sk_fd, [filePath UTF8String], 1);
+                size_t w_s =  mp_file_write(sk_fd, [filePath UTF8String], 1, uuid);
                 if (w_s>0) {
                     NSLog(@"backup success");
                 }else {
-                    
+                    dk_perror("backup failed");
                 }
             }
         }];
@@ -51,12 +52,10 @@ extern NSString *server_ip;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
 -(SOCKET)prepareSend {
     int sk_fd = prepare_send([server_ip UTF8String],8000,server_not_enable_handler);
     return sk_fd;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
