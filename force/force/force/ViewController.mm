@@ -10,6 +10,11 @@
 #import <Photos/Photos.h>
 #import "brightside.hpp"
 #import "luke.hpp"
+
+void server_not_enable_handler() {
+    printf("server now is down");
+}
+
 extern NSString *server_ip;
 @interface ViewController ()
 
@@ -48,7 +53,7 @@ extern NSString *server_ip;
 
 
 -(SOCKET)prepareSend {
-    int sk_fd = prepare_send([server_ip UTF8String],8000);
+    int sk_fd = prepare_send([server_ip UTF8String],8000,server_not_enable_handler);
     return sk_fd;
 }
 
