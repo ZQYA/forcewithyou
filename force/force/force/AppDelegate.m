@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <objc/runtime.h>
+#import "Aspects.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    unsigned int size = 0;
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//        Class *c = objc_copyClassList(&size);
+//        for (int i  =  0 ; i < size ; ++i) {
+//            NSLog(@"%@",NSStringFromClass(*c));
+//            unsigned int methodsize = 0;
+//            Method *m = class_copyMethodList(*c, &methodsize);
+//            for (int j = 0; j<methodsize ; ++j) {
+//                SEL s = method_getName(*m);
+//                if ([@"ViewController" isEqualToString:NSStringFromClass(*c)]) {
+//                     [*c aspect_hookSelector:s withOptions:(AspectPositionBefore) usingBlock:^{
+//                         
+//                    } error:nil];
+//                }
+//            }
+//            c++;
+//        }
+//    });
     return YES;
 }
 

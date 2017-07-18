@@ -67,6 +67,8 @@
 		A8B1B5441F050B780095C602 /* dktool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5401F050B780095C602 /* dktool.cpp */; };
 		A8B1B5491F050B8A0095C602 /* bd_tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5451F050B8A0095C602 /* bd_tool.cpp */; };
 		A8B1B54A1F050B8A0095C602 /* broadcast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8B1B5471F050B8A0095C602 /* broadcast.cpp */; };
+		A8D2D07B1F1774580010276E /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D2D07A1F1774580010276E /* Aspects.m */; };
+		A8F345711F1DDFD60087A804 /* dklog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8F3456F1F1DDFD60087A804 /* dklog.cpp */; };
 		A8F7EEA61F06675300467FC2 /* icmp_protocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */; };
 /* End PBXBuildFile section */
 
@@ -179,6 +181,10 @@
 		A8B1B5461F050B8A0095C602 /* bd_tool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = bd_tool.hpp; path = ../../../../../broadcasthome/broadcast/bd_tool.hpp; sourceTree = "<group>"; };
 		A8B1B5471F050B8A0095C602 /* broadcast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = broadcast.cpp; path = ../../../../../broadcasthome/broadcast/broadcast.cpp; sourceTree = "<group>"; };
 		A8B1B5481F050B8A0095C602 /* broadcast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = broadcast.hpp; path = ../../../../../broadcasthome/broadcast/broadcast.hpp; sourceTree = "<group>"; };
+		A8D2D0791F1774580010276E /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		A8D2D07A1F1774580010276E /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		A8F3456F1F1DDFD60087A804 /* dklog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dklog.cpp; path = ../../../../../ZLTCPTransfer/src/dklog.cpp; sourceTree = "<group>"; };
+		A8F345701F1DDFD60087A804 /* dklog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = dklog.hpp; path = ../../../../../ZLTCPTransfer/src/dklog.hpp; sourceTree = "<group>"; };
 		A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = icmp_protocol.cpp; path = ../../../../../ZLTCPTransfer/src/icmp_protocol.cpp; sourceTree = "<group>"; };
 		A8F7EEA51F06675300467FC2 /* icmp_protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = icmp_protocol.hpp; path = ../../../../../ZLTCPTransfer/src/icmp_protocol.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,6 +325,8 @@
 		A822EE581F04ABF400BD6A06 /* force */ = {
 			isa = PBXGroup;
 			children = (
+				A8D2D0791F1774580010276E /* Aspects.h */,
+				A8D2D07A1F1774580010276E /* Aspects.m */,
 				A822EE7E1F04AC8800BD6A06 /* util */,
 				A822EE5C1F04ABF400BD6A06 /* AppDelegate.h */,
 				A822EE5D1F04ABF400BD6A06 /* AppDelegate.m */,
@@ -353,6 +361,8 @@
 		A822EE7E1F04AC8800BD6A06 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				A8F3456F1F1DDFD60087A804 /* dklog.cpp */,
+				A8F345701F1DDFD60087A804 /* dklog.hpp */,
 				A822836B1F163C80003248BC /* lua_src */,
 				A8F7EEA41F06675300467FC2 /* icmp_protocol.cpp */,
 				A8F7EEA51F06675300467FC2 /* icmp_protocol.hpp */,
@@ -500,6 +510,7 @@
 				A82283C01F163C81003248BC /* lapi.c in Sources */,
 				A82283CE1F163C81003248BC /* liolib.c in Sources */,
 				A82283D61F163C81003248BC /* lparser.c in Sources */,
+				A8D2D07B1F1774580010276E /* Aspects.m in Sources */,
 				A8B1B5441F050B780095C602 /* dktool.cpp in Sources */,
 				A822EE611F04ABF400BD6A06 /* ViewController.mm in Sources */,
 				A82283BE1F163C81003248BC /* Makefile in Sources */,
@@ -537,6 +548,7 @@
 				A82283C81F163C81003248BC /* ldebug.c in Sources */,
 				A82283DB1F163C81003248BC /* ltablib.c in Sources */,
 				A8B1B5491F050B8A0095C602 /* bd_tool.cpp in Sources */,
+				A8F345711F1DDFD60087A804 /* dklog.cpp in Sources */,
 				A82283DD1F163C81003248BC /* lua.c in Sources */,
 				A82283C61F163C81003248BC /* lctype.c in Sources */,
 				A82283CD1F163C81003248BC /* linit.c in Sources */,
